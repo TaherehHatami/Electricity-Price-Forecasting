@@ -33,6 +33,8 @@ This project builds a day-ahead electricity price forecasting model for the Germ
 - **Prediction errors peak in the evening (17h–20h)** and in **January, February, and September** — likely tied to higher demand volatility and heating/cooling season transitions.
 - **Validation results:** MAE 10.58 €/MWh, RMSE 16.21 €/MWh, 74.9% coverage (q10–q90, expected 80%)
 - **Test results (2024):** MAE 9.97 €/MWh, RMSE 18.46 €/MWh, 56.4% coverage — the drop in coverage shows the model underestimates uncertainty during more volatile periods, meaning prediction intervals were too narrow.
+- ![True vs Predicted Price](true-vs-predicted.png)
+- ![Probabilistic Forecast — Quantile Regression (2024 test)](probabilistic-forecast.png)
 
 ## 🔮 Future Work
 - Explore non-linear models (e.g. gradient boosting) to better capture extreme price events
