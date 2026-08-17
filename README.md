@@ -1,6 +1,8 @@
 # Day-Ahead Electricity Price Forecasting
 A probabilistic forecasting project predicting day-ahead electricity prices for the Germany-Luxembourg market, built as a technical take-home task for a data science interview.
 
+📄 Full code: [view notebook](EPF-TaherehHatami.ipynb) | 📊 Slides: [view PDF](EPF-TaherehHatami.pdf)
+
 ## 📌 Project Overview
 This project builds a day-ahead electricity price forecasting model for the German-Luxembourg electricity market, with a focus on producing not just point forecasts but **probabilistic** predictions; quantifying uncertainty, not just a single predicted price. The goal was to model price behavior realistically, including negative prices and extreme volatility events, which are common in real electricity markets driven by renewable oversupply.
 
